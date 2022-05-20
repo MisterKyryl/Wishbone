@@ -1,0 +1,566 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+// Variables
+$colorDark: #1B1A1A;
+$colorDarkGrey: #403E3B;
+$colorDarkOrange: #645c55;
+$colorLightOrange: #ECE7E4;
+$colorLightGrey: #f7f7f7;
+// Header start
+#header {
+    height: 90px;
+    font-size: 15px;
+    z-index: 3;
+}
+
+.bg__light {
+    background-color: #fff;
+}
+
+// Navbar brand "Wishbone"
+.navbar-brand {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    left: 9.9%;
+    img {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+// Navbar text and button
+.collapse {
+    position: relative;
+    text-align: center;
+    padding-top: 0.9vw;
+    right: 8%;
+    padding: 0;
+    .nav-item {
+        font-size: 15px;
+        padding-left: 1.2vw;
+    }
+    .btn {
+        width: 155px;
+        height: 46px;
+        border-radius: 14px;
+        font-size: 16px;
+        color: #fff;
+        background-color: $colorDark;
+        margin-left: 1.7vw;
+        &:hover {
+            background-color: rgba(27, 26, 26, 0.8);
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .collapse {
+        top: 0;
+        left: 12%;
+        text-align: left;
+        .nav-item {
+            padding-left: 65px;
+        }
+    }
+    .navbar-toggler:hover {
+        .collapse {
+            top: 0;
+            left: 12%;
+            text-align: left;
+            .nav-item {
+                padding-left: 65px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #header {
+        height: 70px;
+    }
+}
+
+// Header end
+// About start
+.about {
+    background-color: #ECE7E4;
+    position: relative;
+    padding: 0 0 0 5vw;
+    .container {
+        max-width: 92vw;
+    }
+    // About text
+    h2 {
+        font-size: 0.98vw;
+        letter-spacing: 0.14vw;
+        margin: 9.65vw 0 1.5vw;
+    }
+    h1 {
+        font-size: 4.45vw;
+        line-height: 4.85vw;
+        color: $colorDark;
+        margin: 0 0 1.45vw;
+    }
+    p {
+        font-size: 1.11vw;
+        line-height: 1.65vw;
+        color: $colorDarkGrey;
+        margin: 0 0 2.25vw;
+    }
+    // About button
+    .btn {
+        font-size: 1.14vw;
+        letter-spacing: 0.025vw;
+        color: $colorDark;
+        margin: 0 0 0 0.6vw;
+        border-radius: 14px;
+        border: 4px solid rgba(0, 0, 0, 0);
+    }
+    // About img
+    img {
+        width: 50vw;
+        position: relative;
+        left: 7.2%;
+    }
+}
+
+// About end
+// Firm start
+.firm {
+    height: 54.3vw;
+    padding: 6.7vw 0 0 0;
+    h2 {
+        font-size: 2.23vw;
+        color: $colorDarkGrey;
+        text-align: end;
+        padding: 0 1vw 0 0;
+    }
+    p {
+        font-size: 1.1vw;
+        line-height: 1.65vw;
+        color: $colorDarkGrey;
+        padding: 0 0 0 7vw;
+    }
+    img {
+        width: 5.75vw;
+        height: auto;
+        position: absolute;
+        margin-left: 7vw;
+    }
+    h3 {
+        font-size: 1.17vw;
+        color: $colorDark;
+        position: absolute;
+        padding: 1.5vw 0 0 14.75vw;
+    }
+    h4 {
+        font-size: 0.95vw;
+        color: $colorDarkOrange;
+        padding: 3vw 0 0 14.9vw;
+    }
+}
+
+// Firm end
+// Reeding house start
+.reeding {
+    background-image: url(../img/reeding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41.7vw;
+    position: relative;
+    .container {
+        max-width: 92vw;
+    }
+    h5 {
+        font-size: 0.97vw;
+        letter-spacing: 0.14vw;
+        color: $colorDarkGrey;
+        margin: 18.65vw 0 0 70.6vw;
+    }
+    p {
+        font-size: 1.11vw;
+        color: $colorDarkOrange;
+        margin: 0.1vw 0 0 70.6vw;
+    }
+}
+
+// Reeding house end
+// Our process start
+.process {
+    height: 40.3vw;
+    .container {
+        max-width: 92vw;
+    }
+    h3 {
+        font-size: 0.97vw;
+        letter-spacing: 0.14vw;
+        color: $colorDarkOrange;
+        margin-top: 7.03vw;
+        margin-left: 0.65vw;
+    }
+    h4 {
+        font-size: 2.71vw;
+        color: $colorDark;
+        margin-top: 0.4vw;
+        margin-left: 0.6vw;
+    }
+}
+
+.icon {
+    &-sketching {
+        font-size: 7.1vw;
+        position: relative;
+        top: 1.3vw;
+        margin-left: 14.05vw;
+    }
+    &-finalizing {
+        font-size: 7.1vw;
+        position: relative;
+        top: 1.3vw;
+        margin-left: 10.9vw;
+    }
+    &-building {
+        font-size: 7.1vw;
+        position: relative;
+        top: 1.3vw;
+        margin-left: 7.8vw;
+    }
+}
+
+.sketching {
+    h5 {
+        font-size: 1.25vw;
+        color: $colorDarkGrey;
+        margin: 0.05vw 0 0 7.5vw;
+    }
+    p {
+        font-size: 1.05vw;
+        color: $colorDarkOrange;
+        margin: 1.1vw 0 0 7.4vw;
+    }
+}
+
+.finalizing {
+    h5 {
+        font-size: 1.185vw;
+        color: $colorDarkGrey;
+        margin: 0.1vw 0 0 1.2vw;
+    }
+    p {
+        font-size: 1.111vw;
+        color: $colorDarkOrange;
+        margin: 0.93vw 0 0 1.1vw;
+    }
+}
+
+.building {
+    h5 {
+        font-size: 1.18vw;
+        color: $colorDarkGrey;
+        margin: 0.1vw 5.1vw 0 0;
+    }
+    p {
+        font-size: 1.111vw;
+        color: $colorDarkOrange;
+        margin: 1vw 5.1vw 0 0;
+    }
+}
+
+// Our process end
+// The marble staircase start
+.marble {
+    background-image: url(../img/staircase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41.7vw;
+    position: relative;
+    .container {
+        max-width: 92vw;
+    }
+    h5 {
+        font-size: 0.97vw;
+        letter-spacing: 0.14vw;
+        color: $colorDarkGrey;
+        margin: 18.65vw 0 0 70.6vw;
+    }
+    p {
+        font-size: 1.11vw;
+        color: $colorDarkOrange;
+        margin: 0.1vw 0 0 70.6vw;
+        position: absolute;
+    }
+}
+
+// The marble staircase end
+// Prior clients start
+.prior {
+    background-color: $colorDarkGrey;
+    height: 28.43vw;
+    .container {
+        max-width: 92vw;
+    }
+    h5 {
+        font-size: 0.97vw;
+        letter-spacing: 0.14vw;
+        color: $colorLightOrange;
+        margin: 9.4vw 0 0 5vw;
+    }
+    h6 {
+        font-size: 2.22vw;
+        color: #fff;
+        margin-left: 5vw;
+    }
+    p {
+        font-size: 1.04vw;
+        color: $colorLightOrange;
+        margin: 1.1vw 0 0 5vw;
+    }
+}
+
+.icon {
+    &-hill_hayes {
+        font-size: 2.1vw;
+        position: absolute;
+        margin: 8.3vw 0 0 3.1vw;
+    }
+    &-studio_cai {
+        font-size: 1.4vw;
+        position: absolute;
+        margin: 19.4vw 0 0 3.1vw;
+    }
+    &-riksgransen {
+        font-size: 5.4vw;
+        position: absolute;
+        margin: 6vw 0 0 18.7vw;
+    }
+    &-chill_industries {
+        font-size: 2.5vw;
+        position: absolute;
+        margin: 18.7vw 0 0 18.65vw;
+    }
+}
+
+// Prior clients end
+// The swirling staircase start
+.swirling {
+    background-image: url(../img/swirling.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41.7vw;
+    position: relative;
+    .container {
+        max-width: 92vw;
+    }
+    h5 {
+        font-size: 0.97vw;
+        letter-spacing: 0.14vw;
+        color: $colorDarkGrey;
+        margin: 18.65vw 0 0 0;
+    }
+    p {
+        font-size: 1.11vw;
+        color: $colorDarkOrange;
+        margin: 0.1vw 0 0 0;
+    }
+}
+
+// The swirling staircase end
+// Featured projects start
+.project {
+    height: 63.75vw;
+    background-color: $colorLightGrey;
+    .container {
+        max-width: 81vw;
+    }
+    h3 {
+        font-size: 2.7vw;
+        color: $colorDark;
+        padding: 7.8vw 0 0 0.7vw;
+    }
+    p {
+        font-size: 1.67vw;
+        color: $colorDarkOrange;
+        padding: 0 0 1.5vw 0.7vw;
+    }
+    &-item {
+        width: 26vw;
+        height: 32vw;
+    }
+    &-item01 {
+        background-image: url(../img/project-item01.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &-item02 {
+        background-image: url(../img/project-item02.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &-item03 {
+        background-image: url(../img/project-item03.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h5 {
+        font-size: 0.97vw;
+        letter-spacing: 0.14vw;
+        color: $colorDarkOrange;
+        padding: 2.5vw 0 0 3vw;
+    }
+    h6 {
+        font-size: 1.6vw;
+        color: $colorDarkGrey;
+        padding: 0 0 0 3vw;
+        margin: 0 0 0 0;
+    }
+    .btn-outline-dark {
+        width: 9vw;
+        height: 3vw;
+        font-size: 1.2vw;
+        color: #fff;
+        background-color: $colorDark;
+        border-radius: 14px;
+        margin: 19.5vw 0 0 3.5vw;
+        &:hover {
+            background-color: rgba(27, 26, 26, 0.8);
+        }
+    }
+    .btn-outline-light {
+        width: 12vw;
+        height: 3vw;
+        font-size: 1.14vw;
+        letter-spacing: 0.025vw;
+        color: $colorDark;
+        margin: 2.65vw 0 0 35.5vw;
+        border-radius: 14px;
+        &:hover {
+            background-color: rgba(255, 255, 255, 2);
+        }
+    }
+}
+
+// Featured projects end
+// Meet our team start
+.team {
+    height: 41.1vw;
+    .container {
+        max-width: 81.5vw;
+    }
+    h3 {
+        font-size: 2.2vw;
+        color: $colorDarkGrey;
+        margin: 6.5vw 0 0 0;
+    }
+    p {
+        font-size: 1.04vw;
+        color: $colorDarkOrange;
+        margin: 1.25vw 0 0 0;
+    }
+    .btn {
+        font-size: 1.14vw;
+        letter-spacing: 0.025vw;
+        color: $colorDark;
+        border-radius: 14px;
+        border: 4px solid rgba(0, 0, 0, 0);
+        margin: 2.4vw 0 0 0.6vw;
+    }
+    img {
+        width: 5.75vw;
+        height: auto;
+        margin: 5.6vw 0 0 0.25vw;
+    }
+    h5 {
+        font-size: 1.17vw;
+        color: $colorDark;
+        padding: 7vw 0 0 1.1vw;
+        margin: 0;
+    }
+    h6 {
+        font-size: 0.95vw;
+        color: $colorDarkOrange;
+        padding-left: 1.15vw;
+    }
+}
+
+// Meet our team end
+// Get in touch start
+.touch {
+    height: 21.8vw;
+    background-color: #CEC4BC;
+    .container {
+        max-width: 92vw;
+    }
+    h5 {
+        font-size: 1vw;
+        letter-spacing: 0.14vw;
+        color: $colorDarkOrange;
+        margin: 7vw 0 0 5vw;
+    }
+    h6 {
+        font-size: 2.775vw;
+        color: $colorDark;
+        margin-left: 5vw;
+    }
+    .btn {
+        font-size: 1.14vw;
+        letter-spacing: 0.025vw;
+        color: $colorDark;
+        border-radius: 14px;
+        margin: 9.4vw 0 0 7.7vw;
+        border: 4px solid rgba(0, 0, 0, 0);
+    }
+}
+
+// Get in touch end
+// Footer start
+#footer {
+    height: 14vw;
+    .container {
+        max-width: 92vw;
+    }
+    img {
+        width: 17.5vw;
+        margin: 4vw 0 0 5vw;
+    }
+    h5 {
+        font-size: 1vw;
+        padding: 2vw 0 0 5vw;
+        margin: 0;
+    }
+    p {
+        font-size: 0.965vw;
+        padding-left: 5vw;
+        margin: 0;
+    }
+    i {
+        float: left;
+        padding-top: 7.8vw;
+        padding-left: 1.5vw;
+    }
+    a {
+        color: #1B1A1A;
+    }
+}
+
+.icon {
+    &-twitter {
+        font-size: 1.4vw;
+        margin-left: 8.5vw;
+        margin-top: 0.2vw;
+    }
+    &-instagram {
+        font-size: 1.7vw;
+        margin-top: 0.05vw;
+    }
+    &-facebook {
+        font-size: 1.75vw;
+    }
+}
+
+// Footer end

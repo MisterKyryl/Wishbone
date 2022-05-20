@@ -1,0 +1,588 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+#header {
+  height: 90px;
+  font-size: 15px;
+  z-index: 3;
+}
+
+.bg__light {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  left: 9.9%;
+}
+
+.navbar-brand img {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collapse {
+  position: relative;
+  text-align: center;
+  padding-top: 0.9vw;
+  right: 8%;
+  padding: 0;
+}
+
+.collapse .nav-item {
+  font-size: 15px;
+  padding-left: 1.2vw;
+}
+
+.collapse .btn {
+  width: 155px;
+  height: 46px;
+  border-radius: 14px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1B1A1A;
+  margin-left: 1.7vw;
+}
+
+.collapse .btn:hover {
+  background-color: rgba(27, 26, 26, 0.8);
+}
+
+@media only screen and (max-width: 991px) {
+  .collapse {
+    top: 0;
+    left: 12%;
+    text-align: left;
+  }
+  .collapse .nav-item {
+    padding-left: 65px;
+  }
+  .navbar-toggler:hover .collapse {
+    top: 0;
+    left: 12%;
+    text-align: left;
+  }
+  .navbar-toggler:hover .collapse .nav-item {
+    padding-left: 65px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #header {
+    height: 70px;
+  }
+}
+
+.about {
+  background-color: #ECE7E4;
+  position: relative;
+  padding: 0 0 0 5vw;
+}
+
+.about .container {
+  max-width: 92vw;
+}
+
+.about h2 {
+  font-size: 0.98vw;
+  letter-spacing: 0.14vw;
+  margin: 9.65vw 0 1.5vw;
+}
+
+.about h1 {
+  font-size: 4.45vw;
+  line-height: 4.85vw;
+  color: #1B1A1A;
+  margin: 0 0 1.45vw;
+}
+
+.about p {
+  font-size: 1.11vw;
+  line-height: 1.65vw;
+  color: #403E3B;
+  margin: 0 0 2.25vw;
+}
+
+.about .btn {
+  font-size: 1.14vw;
+  letter-spacing: 0.025vw;
+  color: #1B1A1A;
+  margin: 0 0 0 0.6vw;
+  border-radius: 14px;
+  border: 4px solid rgba(0, 0, 0, 0);
+}
+
+.about img {
+  width: 50vw;
+  position: relative;
+  left: 7.2%;
+}
+
+.firm {
+  height: 54.3vw;
+  padding: 6.7vw 0 0 0;
+}
+
+.firm h2 {
+  font-size: 2.23vw;
+  color: #403E3B;
+  text-align: end;
+  padding: 0 1vw 0 0;
+}
+
+.firm p {
+  font-size: 1.1vw;
+  line-height: 1.65vw;
+  color: #403E3B;
+  padding: 0 0 0 7vw;
+}
+
+.firm img {
+  width: 5.75vw;
+  height: auto;
+  position: absolute;
+  margin-left: 7vw;
+}
+
+.firm h3 {
+  font-size: 1.17vw;
+  color: #1B1A1A;
+  position: absolute;
+  padding: 1.5vw 0 0 14.75vw;
+}
+
+.firm h4 {
+  font-size: 0.95vw;
+  color: #645c55;
+  padding: 3vw 0 0 14.9vw;
+}
+
+.reeding {
+  background-image: url(../img/reeding.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 41.7vw;
+  position: relative;
+}
+
+.reeding .container {
+  max-width: 92vw;
+}
+
+.reeding h5 {
+  font-size: 0.97vw;
+  letter-spacing: 0.14vw;
+  color: #403E3B;
+  margin: 18.65vw 0 0 70.6vw;
+}
+
+.reeding p {
+  font-size: 1.11vw;
+  color: #645c55;
+  margin: 0.1vw 0 0 70.6vw;
+}
+
+.process {
+  height: 40.3vw;
+}
+
+.process .container {
+  max-width: 92vw;
+}
+
+.process h3 {
+  font-size: 0.97vw;
+  letter-spacing: 0.14vw;
+  color: #645c55;
+  margin-top: 7.03vw;
+  margin-left: 0.65vw;
+}
+
+.process h4 {
+  font-size: 2.71vw;
+  color: #1B1A1A;
+  margin-top: 0.4vw;
+  margin-left: 0.6vw;
+}
+
+.icon-sketching {
+  font-size: 7.1vw;
+  position: relative;
+  top: 1.3vw;
+  margin-left: 14.05vw;
+}
+
+.icon-finalizing {
+  font-size: 7.1vw;
+  position: relative;
+  top: 1.3vw;
+  margin-left: 10.9vw;
+}
+
+.icon-building {
+  font-size: 7.1vw;
+  position: relative;
+  top: 1.3vw;
+  margin-left: 7.8vw;
+}
+
+.sketching h5 {
+  font-size: 1.25vw;
+  color: #403E3B;
+  margin: 0.05vw 0 0 7.5vw;
+}
+
+.sketching p {
+  font-size: 1.05vw;
+  color: #645c55;
+  margin: 1.1vw 0 0 7.4vw;
+}
+
+.finalizing h5 {
+  font-size: 1.185vw;
+  color: #403E3B;
+  margin: 0.1vw 0 0 1.2vw;
+}
+
+.finalizing p {
+  font-size: 1.111vw;
+  color: #645c55;
+  margin: 0.93vw 0 0 1.1vw;
+}
+
+.building h5 {
+  font-size: 1.18vw;
+  color: #403E3B;
+  margin: 0.1vw 5.1vw 0 0;
+}
+
+.building p {
+  font-size: 1.111vw;
+  color: #645c55;
+  margin: 1vw 5.1vw 0 0;
+}
+
+.marble {
+  background-image: url(../img/staircase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 41.7vw;
+  position: relative;
+}
+
+.marble .container {
+  max-width: 92vw;
+}
+
+.marble h5 {
+  font-size: 0.97vw;
+  letter-spacing: 0.14vw;
+  color: #403E3B;
+  margin: 18.65vw 0 0 70.6vw;
+}
+
+.marble p {
+  font-size: 1.11vw;
+  color: #645c55;
+  margin: 0.1vw 0 0 70.6vw;
+  position: absolute;
+}
+
+.prior {
+  background-color: #403E3B;
+  height: 28.43vw;
+}
+
+.prior .container {
+  max-width: 92vw;
+}
+
+.prior h5 {
+  font-size: 0.97vw;
+  letter-spacing: 0.14vw;
+  color: #ECE7E4;
+  margin: 9.4vw 0 0 5vw;
+}
+
+.prior h6 {
+  font-size: 2.22vw;
+  color: #fff;
+  margin-left: 5vw;
+}
+
+.prior p {
+  font-size: 1.04vw;
+  color: #ECE7E4;
+  margin: 1.1vw 0 0 5vw;
+}
+
+.icon-hill_hayes {
+  font-size: 2.1vw;
+  position: absolute;
+  margin: 8.3vw 0 0 3.1vw;
+}
+
+.icon-studio_cai {
+  font-size: 1.4vw;
+  position: absolute;
+  margin: 19.4vw 0 0 3.1vw;
+}
+
+.icon-riksgransen {
+  font-size: 5.4vw;
+  position: absolute;
+  margin: 6vw 0 0 18.7vw;
+}
+
+.icon-chill_industries {
+  font-size: 2.5vw;
+  position: absolute;
+  margin: 18.7vw 0 0 18.65vw;
+}
+
+.swirling {
+  background-image: url(../img/swirling.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 41.7vw;
+  position: relative;
+}
+
+.swirling .container {
+  max-width: 92vw;
+}
+
+.swirling h5 {
+  font-size: 0.97vw;
+  letter-spacing: 0.14vw;
+  color: #403E3B;
+  margin: 18.65vw 0 0 0;
+}
+
+.swirling p {
+  font-size: 1.11vw;
+  color: #645c55;
+  margin: 0.1vw 0 0 0;
+}
+
+.project {
+  height: 63.75vw;
+  background-color: #f7f7f7;
+}
+
+.project .container {
+  max-width: 81vw;
+}
+
+.project h3 {
+  font-size: 2.7vw;
+  color: #1B1A1A;
+  padding: 7.8vw 0 0 0.7vw;
+}
+
+.project p {
+  font-size: 1.67vw;
+  color: #645c55;
+  padding: 0 0 1.5vw 0.7vw;
+}
+
+.project-item {
+  width: 26vw;
+  height: 32vw;
+}
+
+.project-item01 {
+  background-image: url(../img/project-item01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-item02 {
+  background-image: url(../img/project-item02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-item03 {
+  background-image: url(../img/project-item03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project h5 {
+  font-size: 0.97vw;
+  letter-spacing: 0.14vw;
+  color: #645c55;
+  padding: 2.5vw 0 0 3vw;
+}
+
+.project h6 {
+  font-size: 1.6vw;
+  color: #403E3B;
+  padding: 0 0 0 3vw;
+  margin: 0 0 0 0;
+}
+
+.project .btn-outline-dark {
+  width: 9vw;
+  height: 3vw;
+  font-size: 1.2vw;
+  color: #fff;
+  background-color: #1B1A1A;
+  border-radius: 14px;
+  margin: 19.5vw 0 0 3.5vw;
+}
+
+.project .btn-outline-dark:hover {
+  background-color: rgba(27, 26, 26, 0.8);
+}
+
+.project .btn-outline-light {
+  width: 12vw;
+  height: 3vw;
+  font-size: 1.14vw;
+  letter-spacing: 0.025vw;
+  color: #1B1A1A;
+  margin: 2.65vw 0 0 35.5vw;
+  border-radius: 14px;
+}
+
+.project .btn-outline-light:hover {
+  background-color: white;
+}
+
+.team {
+  height: 41.1vw;
+}
+
+.team .container {
+  max-width: 81.5vw;
+}
+
+.team h3 {
+  font-size: 2.2vw;
+  color: #403E3B;
+  margin: 6.5vw 0 0 0;
+}
+
+.team p {
+  font-size: 1.04vw;
+  color: #645c55;
+  margin: 1.25vw 0 0 0;
+}
+
+.team .btn {
+  font-size: 1.14vw;
+  letter-spacing: 0.025vw;
+  color: #1B1A1A;
+  border-radius: 14px;
+  border: 4px solid rgba(0, 0, 0, 0);
+  margin: 2.4vw 0 0 0.6vw;
+}
+
+.team img {
+  width: 5.75vw;
+  height: auto;
+  margin: 5.6vw 0 0 0.25vw;
+}
+
+.team h5 {
+  font-size: 1.17vw;
+  color: #1B1A1A;
+  padding: 7vw 0 0 1.1vw;
+  margin: 0;
+}
+
+.team h6 {
+  font-size: 0.95vw;
+  color: #645c55;
+  padding-left: 1.15vw;
+}
+
+.touch {
+  height: 21.8vw;
+  background-color: #CEC4BC;
+}
+
+.touch .container {
+  max-width: 92vw;
+}
+
+.touch h5 {
+  font-size: 1vw;
+  letter-spacing: 0.14vw;
+  color: #645c55;
+  margin: 7vw 0 0 5vw;
+}
+
+.touch h6 {
+  font-size: 2.775vw;
+  color: #1B1A1A;
+  margin-left: 5vw;
+}
+
+.touch .btn {
+  font-size: 1.14vw;
+  letter-spacing: 0.025vw;
+  color: #1B1A1A;
+  border-radius: 14px;
+  margin: 9.4vw 0 0 7.7vw;
+  border: 4px solid rgba(0, 0, 0, 0);
+}
+
+#footer {
+  height: 14vw;
+}
+
+#footer .container {
+  max-width: 92vw;
+}
+
+#footer img {
+  width: 17.5vw;
+  margin: 4vw 0 0 5vw;
+}
+
+#footer h5 {
+  font-size: 1vw;
+  padding: 2vw 0 0 5vw;
+  margin: 0;
+}
+
+#footer p {
+  font-size: 0.965vw;
+  padding-left: 5vw;
+  margin: 0;
+}
+
+#footer i {
+  float: left;
+  padding-top: 7.8vw;
+  padding-left: 1.5vw;
+}
+
+#footer a {
+  color: #1B1A1A;
+}
+
+.icon-twitter {
+  font-size: 1.4vw;
+  margin-left: 8.5vw;
+  margin-top: 0.2vw;
+}
+
+.icon-instagram {
+  font-size: 1.7vw;
+  margin-top: 0.05vw;
+}
+
+.icon-facebook {
+  font-size: 1.75vw;
+}
